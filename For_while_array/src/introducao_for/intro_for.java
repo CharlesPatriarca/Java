@@ -8,8 +8,8 @@ public class intro_for {
 		y = 100;
 		
 		/*for (int i = 0; i < 10; i++) {
-			System.out.println("Olá");
-		}*/
+			System.out.println("Olá");*/
+		
 		
 		for (int i = x; i <= y; i++) {
 			if (i % 3 == 0) {
