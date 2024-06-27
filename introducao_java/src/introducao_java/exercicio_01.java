@@ -1,6 +1,6 @@
 package introducao_java;
 
-public class intro_08 {
+public class exercicio_01 {
 
 	public static void main(String[] args) {
 		int idade = 19;
