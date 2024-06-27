@@ -1,6 +1,6 @@
 package introducao_arrays;
 
-public class intro_arrays {
+public class intro_01 {
 
 	public static void main(String[] args) {
 		/*int a[] = new int [4];
