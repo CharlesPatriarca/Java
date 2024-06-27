@@ -1,0 +1,31 @@
+package Scanner_If_else;
+
+import java.util.Scanner;
+
+public class exercicio_06 {
+
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner (System.in);
+		
+		System.out.println("Telefonou para a vítima?");
+		char resp1 = entrada.next().charAt(0);
+		
+		System.out.println("Esteve no local do crime?");
+		char resp2 = entrada.next().charAt(0);
+		
+		System.out.println("Mora perto da vítima?");
+		char resp3 = entrada.next().charAt(0);
+
+		System.out.println("Devia para a vítima?");
+		char resp4 = entrada.next().charAt(0);
+
+		System.out.println("Já trabalhou com a vítima?");
+		char resp5 = entrada.next().charAt(0);
+		
+		
+	entrada.close();
+	
+	}
+
+}
