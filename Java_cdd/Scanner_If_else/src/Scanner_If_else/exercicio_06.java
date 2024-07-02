@@ -23,6 +23,13 @@ public class exercicio_06 {
 		System.out.println("Já trabalhou com a vítima?");
 		char resp5 = entrada.next().charAt(0);
 		
+		System.out.println(resp1);
+		System.out.println(resp2);
+		System.out.println(resp3);
+		System.out.println(resp4);
+		System.out.println(resp5);
+		
+				
 		
 	entrada.close();
 	
