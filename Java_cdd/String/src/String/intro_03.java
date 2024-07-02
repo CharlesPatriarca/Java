@@ -1,8 +1,9 @@
-package intro_string;
+package String;
 
 public class intro_03 {
 
 	public static void main(String[] args) {
+		int tres;
 		
 		//CONCATENAÇÃO
 		
@@ -11,8 +12,8 @@ public class intro_03 {
 		
 		System.out.println();
 		
-		int tres = 3;
-		String resultadoFinal = 3 + " palavra " + 3;
+		tres = 3;
+		String resultadoFinal = tres + " palavra " + tres;
 		System.out.println(resultadoFinal);
 		
 		System.out.println();
@@ -27,6 +28,7 @@ public class intro_03 {
 		
 		String resultado1 = str1.substring(3,8);
 		System.out.println(resultado1);
+		
 	}
 
 }

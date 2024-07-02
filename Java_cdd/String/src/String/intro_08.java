@@ -1,6 +1,6 @@
-package intro_string;
+package String;
 
-public class intro_09 {
+public class intro_08 {
 
 	public static void main(String[] args) {
 		// TAMANHO DE STRING

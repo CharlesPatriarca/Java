@@ -1,9 +1,9 @@
-package intro_string;
+package String;
 
 import java.util.StringTokenizer;
 
+public class intro_11 {
 
-public class intro_12 {
 	public static void main(String[] args) {
 		
 		StringTokenizer exemplo = new StringTokenizer ("O mundo não é mais o mesmo mas não iremos desistir nunca");

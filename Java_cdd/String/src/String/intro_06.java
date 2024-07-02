@@ -1,4 +1,4 @@
-package intro_string;
+package String;
 
 public class intro_06 {
 
@@ -8,6 +8,7 @@ public class intro_06 {
 		String str = "Hello";
 		char c = str.charAt(1);
 		System.out.println(c);
+		
 	}
 
 }

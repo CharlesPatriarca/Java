@@ -1,6 +1,6 @@
-package intro_string;
+package String;
 
-public class intro_11 {
+public class intro_10 {
 
 	public static void main(String[] args) {
 		// endsWhit e startsWith

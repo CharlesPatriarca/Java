@@ -1,4 +1,4 @@
-package intro_string;
+package String;
 
 public class exercicio_01 {
 
@@ -7,6 +7,7 @@ public class exercicio_01 {
 		
 		String str = texto.trim();
 		System.out.println(str);
+		
 	}
 
 }

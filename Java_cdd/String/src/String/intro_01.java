@@ -1,4 +1,4 @@
-package intro_string;
+package String;
 
 public class intro_01 {
 
@@ -10,7 +10,6 @@ public class intro_01 {
 		
 		System.out.println();
 		
-	
 	}
 
 }

@@ -1,4 +1,4 @@
-package intro_string;
+package String;
 
 public class intro_05 {
 

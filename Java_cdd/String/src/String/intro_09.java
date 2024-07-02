@@ -1,6 +1,6 @@
-package intro_string;
+package String;
 
-public class intro_10 {
+public class intro_09 {
 
 	public static void main(String[] args) {
 		//MÉTODO QUE MOSTRA A POSIÇÃO DA LETRA NO INÍCIO
@@ -16,6 +16,7 @@ public class intro_10 {
 		
 		int pos1 = str.lastIndexOf("l");
 		System.out.println(pos1);
+		
 	}
 
 }

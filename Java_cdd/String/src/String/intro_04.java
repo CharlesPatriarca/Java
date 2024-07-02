@@ -1,4 +1,4 @@
-package intro_string;
+package String;
 
 public class intro_04 {
 
@@ -15,6 +15,7 @@ public class intro_04 {
 		String str1 = "HELLO";
 		String resultado1 = str1.toLowerCase();
 		System.out.println(resultado1);
+		
 	}
 
 }
