@@ -3,6 +3,7 @@ package intro_string;
 public class intro_04 {
 
 	public static void main(String[] args) {
+		// COLOCAR TEXTO EM MAIÚSCULO
 		
 		String str = "Hello";
 		String resultado = str.toUpperCase();
@@ -10,6 +11,7 @@ public class intro_04 {
 		
 		System.out.println();
 		
+		// COLOCAR TEXTO EM MINÚSCULO
 		String str1 = "HELLO";
 		String resultado1 = str1.toLowerCase();
 		System.out.println(resultado1);
