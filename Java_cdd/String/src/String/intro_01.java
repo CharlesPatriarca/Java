@@ -8,7 +8,6 @@ public class intro_01 {
 		String texto = new String (caracteres);
 		System.out.println(texto);
 		
-		System.out.println();
 		
 	}
 
