@@ -3,8 +3,8 @@ package String;
 public class exercicio_06 {
 
 	public static void main(String[] args) {
-		/* Refaça o exercício anterior, usando a
-		maneira como o Mestre yoda falaria.. BELA É VIDA A */
+		/* Refaça o exercício anterior, usando a maneira 
+		   como o Mestre yoda falaria.. BELA É VIDA A */
 		
 		String arrayYoda [] = {"bela", "é", "vida", "a"};
 		String txt = String.join(" ", arrayYoda);
