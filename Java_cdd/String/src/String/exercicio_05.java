@@ -1,6 +1,6 @@
 package String;
 
-public class exercico_05 {
+public class exercicio_05 {
 
 	public static void main(String[] args) {
 		/* dado o Array a seguir, {"a", "vida", "é", "bela"} faça um programa que crie um string o com
