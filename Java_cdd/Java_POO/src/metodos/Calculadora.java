@@ -22,15 +22,16 @@ public class Calculadora {
 		
 		while (resposta != 0) {
 		
-		System.out.println("                           BEM-VINDO(A) A CALCULADORA!  \n"
-						+ "                    ESCOLHA ENTRE 1-9 PARA REALIZAR UMA AÇÃO: \n \n"
-						+ " [1] - Para adição com dois números        | [5] - Para adição com três números \n"
-						+ " [2] - Para subtração com dois números     | [6] - Para subtração com três números \n"
-						+ " [3] - Para multiplicação com dois números | [7] - Para multiplicação com três números \n"
-						+ " [4] - Para Divisão com dois números       | [8] - Para Divisão com três números \n"
-						+ " [0] - Sair da calculadora                 |");
+		System.out.println("                             BEM-VINDO(A) A CALCULADORA!                                  | \n"
+						 + "                      ESCOLHA ENTRE 1-9 PARA REALIZAR UMA AÇÃO:                           | \n \n"
+						 + "        OPERAÇÃO COM DOIS NÚMERO                    OPERAÇÃO COM TRÊS NÚMEROS             | \n \n"
+						 + " [1] - Para adição com dois números        | [5] - Para adição com três números           | \n"
+						 + " [2] - Para subtração com dois números     | [6] - Para subtração com três números        | \n"
+						 + " [3] - Para multiplicação com dois números | [7] - Para multiplicação com três números    | \n"
+						 + " [4] - Para Divisão com dois números       | [8] - Para Divisão com três números          | \n"
+						 + " [0] - Sair da calculadora                 |                                              | \n"
+						 + "------------------------------------------------------------------------------------------| \n");
 		
-		System.out.println();
 
 		System.out.println("QUAL A OPÇÃO DESEJADA? ");
 		resposta = entrada.nextInt();
