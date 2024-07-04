@@ -13,6 +13,18 @@ public class Exercico_04 {
 		
 		System.out.println(txtFinal);
 		
+		
+		System.out.println();
+		
+		
+		String arrayYoda2 [] = {"bela", "é", "vida", "a"};
+		String txt1 = new String ();
+		for (int x = 0; x < arrayYoda2.length; x++) {
+			txt1 = txt1 + " " + arrayYoda2[x];
+			}
+		String a = txt1.trim().toUpperCase();
+		System.out.println(a);
+		
 	}
 
 }

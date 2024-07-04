@@ -11,6 +11,7 @@ public class IntroScanner {
 		double resp = entrada.nextDouble();
 		System.out.println(resp);
 
+		
 		entrada.close();
 	}
 
