@@ -5,7 +5,11 @@ import java.util.Scanner;
 public class Calculadora {
 	
 	public static void main(String[] args) {
-		
+		int resposta;
+		int resultado;
+		int a;
+		int b;
+		int c;
 		
 		Scanner entrada = new Scanner (System.in);
 		
@@ -14,132 +18,138 @@ public class Calculadora {
 		SomarMetodos multiplicacao = new SomarMetodos();
 		SomarMetodos divisao = new SomarMetodos();
 		
-		int resposta = 0;
+		resposta = 15;
 		
-		while (resposta != 9) {
+		while (resposta != 0) {
 		
-		System.out.println(" [1] Para adição com dois números \n [2] Para adição com trêa números \n"
-						+ " [3] Para subtração com dois números \n [4] Para subtração com dois números \n"
-						+ " [5] Para multiplicação com dois números \n [6] Para multiplicação com dois números \n"
-						+ " [7] Para Divisão com dois números \n [8] Para Divisão com dois números \n"
-						+ " [9] Sair da calculadora");
+		System.out.println("                           BEM-VINDO(A) A CALCULADORA!  \n"
+						+ "                    ESCOLHA ENTRE 1-9 PARA REALIZAR UMA AÇÃO: \n \n"
+						+ " [1] - Para adição com dois números        | [5] - Para adição com três números \n"
+						+ " [2] - Para subtração com dois números     | [6] - Para subtração com três números \n"
+						+ " [3] - Para multiplicação com dois números | [7] - Para multiplicação com três números \n"
+						+ " [4] - Para Divisão com dois números       | [8] - Para Divisão com três números \n"
+						+ " [0] - Sair da calculadora                 |");
 		
 		System.out.println();
 
-		
-		System.out.println("Qual operação você deseja? ");
+		System.out.println("QUAL A OPÇÃO DESEJADA? ");
 		resposta = entrada.nextInt();
 		
-
+		System.out.println();
+		
 		if (resposta == 1) {
 			System.out.println("Digite o primeiro número da operação: ");
-			int a = entrada.nextInt();
+			a = entrada.nextInt();
 			
 			System.out.println("Digite o primeiro número da operação: ");
-			int b = entrada.nextInt();
+			b = entrada.nextInt();
 			
-			int resultado0 = adicao.somar(a, b);
+			resultado = adicao.somar(a, b);
 			
-			System.out.printf("O resultado da soma é: %s \n" , resultado0);
+			System.out.printf("O resultado da soma de %s + %s é: %s \n" , a, b, resultado);
 		}
 		
 		else if (resposta == 2) {
 			System.out.println("Digite o primeiro número da operação: ");
-			int a = entrada.nextInt();
+			a = entrada.nextInt();
 			
 			System.out.println("Digite o primeiro número da operação: ");
-			int b = entrada.nextInt();
+			b = entrada.nextInt();
 			
 			System.out.println("Digite o primeiro número da operação: ");
-			int c = entrada.nextInt();
+			c = entrada.nextInt();
 			
-			int resultado1 = adicao.somar(a, b, c);
+			resultado = adicao.somar(a, b, c);
 			
-			System.out.printf("O resultado da soma é: %s \n" , resultado1);
+			System.out.printf("O resultado da soma de %s + %s + %s é: %s \n" , a, b, c, resultado);
 		}
 		
 		else if (resposta == 3) {
 			System.out.println("Digite o primeiro número da operação: ");
-			int a = entrada.nextInt();
+			a = entrada.nextInt();
 			
 			System.out.println("Digite o primeiro número da operação: ");
-			int b = entrada.nextInt();
+			b = entrada.nextInt();
 			
-			int resultado2 = subtracao.subtrair(a, b);
+			resultado = subtracao.subtrair(a, b);
 			
-			System.out.printf("O resultado da subtração é: %s \n", resultado2);
+			System.out.printf("O resultado da subtração de %s - %s é: %s \n" , a, b, resultado);
 		}
 		
 		else if (resposta == 4) {
 			System.out.println("Digite o primeiro número da operação: ");
-			int a = entrada.nextInt();
+			a = entrada.nextInt();
 			
 			System.out.println("Digite o primeiro número da operação: ");
-			int b = entrada.nextInt();
+			b = entrada.nextInt();
 			
 			System.out.println("Digite o primeiro número da operação: ");
-			int c = entrada.nextInt();
+			c = entrada.nextInt();
 			
-			int resultado3 = subtracao.subtrair(a, b, c);
+			resultado = subtracao.subtrair(a, b, c);
 			
-			System.out.printf("O resultado da subtração é: %s \n", resultado3);
+			System.out.printf("O resultado da subtração de %s - %s - %s é: %s \n" , a, b, c, resultado);
 		}
 		
 		else if (resposta == 5) {
 			System.out.println("Digite o primeiro número da operação: ");
-			int a = entrada.nextInt();
+			a = entrada.nextInt();
 			
 			System.out.println("Digite o primeiro número da operação: ");
-			int b = entrada.nextInt();
+			b = entrada.nextInt();
 			
-			int resultado4 = multiplicacao.multiplicar(a, b);
+			resultado = multiplicacao.multiplicar(a, b);
 			
-			System.out.printf("O resultado da multiplicação é: %s \n", resultado4);
+			System.out.printf("O resultado da multiplicação de %s * %s é: %s \n" , a, b, resultado);
 		}
 		
 		else if (resposta == 6) {
 			System.out.println("Digite o primeiro número da operação: ");
-			int a = entrada.nextInt();
+			a = entrada.nextInt();
 			
 			System.out.println("Digite o primeiro número da operação: ");
-			int b = entrada.nextInt();
+			b = entrada.nextInt();
 			
 			System.out.println("Digite o primeiro número da operação: ");
-			int c = entrada.nextInt();
+			c = entrada.nextInt();
 			
-			int resultado5 = multiplicacao.multiplicar(a, b, c);
+			resultado = multiplicacao.multiplicar(a, b, c);
 			
-			System.out.printf("O resultado da multiplicação é: %s \n", resultado5);
+			System.out.printf("O resultado da multiplicação de %s * %s * %s é: %s \n" , a, b, c, resultado);
 		}
 		
 		else if (resposta == 7) {
 			System.out.println("Digite o primeiro número da operação: ");
-			int a = entrada.nextInt();
+			a = entrada.nextInt();
 			
 			System.out.println("Digite o primeiro número da operação: ");
-			int b = entrada.nextInt();
+			b = entrada.nextInt();
 			
-			int resultado6 = divisao.dividir(a, b);
+			resultado = divisao.dividir(a, b);
 			
-			System.out.printf("O resultado da divisão é: %s \n", resultado6);
+			System.out.printf("O resultado da divisão de %s / %s é: %s \n" , a, b, resultado);
 		}
 		
 		else if (resposta == 8) {
 			System.out.println("Digite o primeiro número da operação: ");
-			int a = entrada.nextInt();
+			a = entrada.nextInt();
 			
 			System.out.println("Digite o primeiro número da operação: ");
-			int b = entrada.nextInt();
+			b = entrada.nextInt();
 			
 			System.out.println("Digite o primeiro número da operação: ");
-			int c = entrada.nextInt();
+			c = entrada.nextInt();
 			
-			int resultado7 = divisao.dividir(a, b, c);
+			resultado = divisao.dividir(a, b, c);
 			
-			System.out.printf("O resultado da divisão é: %s \n", resultado7);
+			System.out.printf("O resultado da divisão de %s / %s / %s é: %s \n" , a, b, c, resultado);
 		}
 		
-
+		else if (resposta == 0) {
+			System.out.println("Até a próxima! ");
+		}
+		
+		System.out.println();
 		
 		}
 		entrada.close();
