@@ -5,7 +5,7 @@ public class Intro001 {
 	public static void main(String[] args) {
 		// CRIANDO STRING
 		String nova = new String ();
-		nova = "Hello World";
+		nova = "Hello World!";
 		System.out.println(nova);
 		
 		System.out.println();

@@ -23,7 +23,7 @@ public class Calculadora {
 		while (resposta != 0) {
 		
 		System.out.println("                             BEM-VINDO(A) A CALCULADORA!                                   \n"
-						 + "                      ESCOLHA ENTRE 1-9 PARA REALIZAR UMA AÇÃO:                            \n \n"
+						 + "                      ESCOLHA ENTRE 0-8 PARA REALIZAR UMA AÇÃO:                            \n \n"
 						 + "        OPERAÇÃO COM DOIS NÚMERO                    OPERAÇÃO COM TRÊS NÚMEROS              \n \n"
 						 + " [1] - Para adição com dois números        | [5] - Para adição com três números            \n"
 						 + " [2] - Para subtração com dois números     | [6] - Para subtração com três números         \n"
