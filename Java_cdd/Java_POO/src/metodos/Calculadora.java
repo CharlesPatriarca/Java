@@ -48,6 +48,8 @@ public class Calculadora {
 			resultado = adicao.somar(a, b);
 			
 			System.out.printf("O resultado da soma de %s + %s é: %s \n" , a, b, resultado);
+			
+			System.out.println("\nESCOLHA OUTRA OPÇÃO!");
 		}
 		
 		else if (resposta == 5) {
@@ -63,6 +65,8 @@ public class Calculadora {
 			resultado = adicao.somar(a, b, c);
 			
 			System.out.printf("O resultado da soma de %s + %s + %s é: %s \n" , a, b, c, resultado);
+			
+			System.out.println("\nESCOLHA OUTRA OPÇÃO!");
 		}
 		
 		else if (resposta == 2) {
@@ -75,6 +79,8 @@ public class Calculadora {
 			resultado = subtracao.subtrair(a, b);
 			
 			System.out.printf("O resultado da subtração de %s - %s é: %s \n" , a, b, resultado);
+			
+			System.out.println("\nESCOLHA OUTRA OPÇÃO!");
 		}
 		
 		else if (resposta == 6) {
@@ -90,6 +96,8 @@ public class Calculadora {
 			resultado = subtracao.subtrair(a, b, c);
 			
 			System.out.printf("O resultado da subtração de %s - %s - %s é: %s \n" , a, b, c, resultado);
+			
+			System.out.println("\nESCOLHA OUTRA OPÇÃO!");
 		}
 		
 		else if (resposta == 3) {
@@ -102,6 +110,8 @@ public class Calculadora {
 			resultado = multiplicacao.multiplicar(a, b);
 			
 			System.out.printf("O resultado da multiplicação de %s * %s é: %s \n" , a, b, resultado);
+			
+			System.out.println("\nESCOLHA OUTRA OPÇÃO!");
 		}
 		
 		else if (resposta == 7) {
@@ -117,6 +127,8 @@ public class Calculadora {
 			resultado = multiplicacao.multiplicar(a, b, c);
 			
 			System.out.printf("O resultado da multiplicação de %s * %s * %s é: %s \n" , a, b, c, resultado);
+			
+			System.out.println("\nESCOLHA OUTRA OPÇÃO!");
 		}
 		
 		else if (resposta == 4) {
@@ -129,6 +141,8 @@ public class Calculadora {
 			resultado = divisao.dividir(a, b);
 			
 			System.out.printf("O resultado da divisão de %s / %s é: %s \n" , a, b, resultado);
+			
+			System.out.println("\nESCOLHA OUTRA OPÇÃO!");
 		}
 		
 		else if (resposta == 8) {
@@ -144,6 +158,8 @@ public class Calculadora {
 			resultado = divisao.dividir(a, b, c);
 			
 			System.out.printf("O resultado da divisão de %s / %s / %s é: %s \n" , a, b, c, resultado);
+			
+			System.out.println("\nESCOLHA OUTRA OPÇÃO!");
 		}
 		
 		else if (resposta == 0) {
